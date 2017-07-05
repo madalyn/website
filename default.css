@@ -1,0 +1,66 @@
+/*
+--fonts--
+"Lucida Console", Monaco, monospace
+"Courier New", Courier, monospace
+Arial, Helvetica, sans-serif;
+Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+--styles--
+box-shadow: 0px 0px 15px rgba(0,0,0,.25);
+--colors--
+rgb(0, 255, 226)
+rgb(99, 255, 237)
+*/
+html,body{
+	color: rgb(0, 255, 226); 
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 100%;
+	margin:0;
+	padding: 0;
+}
+h1{font-weight: normal; /*box-shadow: 0px 0px 15px rgba(0,0,0,.25);*/}
+
+.color-gray{color:dimgray;}
+.position-relative{position: relative;}
+.padding-normal{ padding: 0px 20px;}
+.align-right{float: right; margin-right:35px; margin-top: 20px;}
+
+.background_img{
+	float: left;
+	width: 100%;
+	height: auto;
+	min-width: 1080px;
+	min-height: 720px;
+	z-index: -1;
+}
+
+.content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.logo{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 36pt;
+	letter-spacing: 10px;
+	text-align: center;
+	bottom: 0;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.25);
+}
+
+.quote{
+	display: inline-block;
+	float:right;
+	width:450px;
+	max-width: 100%;
+	font-size:18pt;
+	margin-top:100px;
+	text-shadow:0px 0px 15px gray;
+	/*color:rgb(94,94,94);*/
+}
+
+#about_page{
+	border-bottom: rgb(0, 255, 226) 20px dashed;
+	box-shadow: 0px 0px 15px rgba(0,0,0,.25);
+}
