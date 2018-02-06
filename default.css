@@ -24,15 +24,24 @@ h3{}
 p {font-size: 1.1em; line-height: 1.5em; word-spacing: -0.1em;}
 hr{border-bottom-style: none;}
 
-.background_img{
+#bottom_background{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	min-width: 1080px;
+	min-height: 720px;
+	z-index: -1;
+}
+
+#background{
 	float: left;
 	width: 100%;
 	height: auto;
 	min-width: 1080px;
 	min-height: 720px;
 	z-index: -1;
-	/* Position:fixed for now until better solution for overflow content. Perhaps adding a second, third, etc. image. */
-	position: fixed;
+	/* Position:fixed for now until better solution for overflow content. Perhaps adding a second, third, etc. image.
+	position: fixed;*/
 }
 
 .wrapper{
